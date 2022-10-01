@@ -1,0 +1,100 @@
+.detailMainPic{
+    height:380px;
+    width: 85%;
+    margin:52px 105px 0px 113px;
+}
+
+.DetailHeader{
+    color: #192f60;
+    margin-left: 113px;
+    font-size: 30px;
+    font-family: Poppins;
+    margin-top:40px;
+    margin-bottom: 100px;
+    margin-right: 105px;
+    font-weight: 600;
+}
+
+.tabs {
+    position: relative;
+    min-height: 200px;
+    clear: both;
+    margin: 50px 0 25px;
+    background: white;
+}
+
+.tab {
+    float: left;
+}
+
+.tab label {
+    width: 170px;
+    background: white;
+    padding: 10px;
+    border: 1px solid white;
+    margin-left: -1px;
+    position: relative;
+    left: 127px;
+    top: -46px;
+    color: #36415b;
+    font-size: 23px;
+}
+
+.tab [type=radio] {
+    display: none;
+}
+
+[type=radio]:checked~label~.content {
+    opacity: 1;
+}
+
+[type=radio]:checked~label {
+    background: white;
+    border-bottom: 1px solid white;
+    border-bottom: solid 4px red;
+    color: #36415b;
+    font-size: 23px;
+    left: 110px;
+    margin-right: 30px;
+}
+
+.content {
+    position: absolute;
+    top: 12px;
+    left: 110px;
+    background: white;
+    right: 115px;
+    bottom: 0;
+    padding: 20px;
+    border-top: 1px solid gray;
+    opacity: 0;
+    font-size: 20px;
+}
+.about{
+    height: 31px;
+    margin: 10px 0px 30px 0px;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: left;
+    color: #192f60;
+}
+.Detailhead {
+    height: 25px;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: left;
+    color: #192f60;
+}
+.Detailvalue{
+    height: 30px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: left;
+    color: #192f60;
+    padding-bottom: 80px;
+}
